@@ -204,6 +204,22 @@ style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; border-radius:
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57498.70889532198!2d-100.29415143046873!3d25.748447385696878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662ead5c54f1873%3A0x249c319b8f0986b0!2sRenta%20de%20Trajes%20y%20Vestidos%20Blanca%20Rivera%20Boutique!5e0!3m2!1ses!2smx!4v1744875763565!5m2!1ses!2smx" width="1920" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+
+<script>
+  function ajustarPaddingTop() {
+    const navbar = document.querySelector('.navbar');
+    const body = document.body;
+    if (navbar) {
+      const alturaNavbar = navbar.offsetHeight;
+      body.style.paddingTop = alturaNavbar + 'px';
+    }
+  }
+
+  // Ejecutar al cargar y al cambiar tamaño de ventana
+  window.addEventListener('load', ajustarPaddingTop);
+  window.addEventListener('resize', ajustarPaddingTop);
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
