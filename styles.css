@@ -24,7 +24,12 @@ body {
     transform: scale(1.02);
   }
 
-  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
 
   .nosotros-con-fondo {
     position: relative;
@@ -53,7 +58,13 @@ body {
   }
 
 
-  @media (max-width: 868px) {
+  @media (max-width: 1000px) {
+    body {
+      padding-top: 120px; /* Ajusta para móviles donde el nav ocupa más espacio */
+    }
+    .card-img-top {
+      height: 200px;
+    }
     #inicio {
       max-width: 100%;
       font-size: 1rem;
