@@ -60,7 +60,7 @@ body {
 
   @media (max-width: 1000px) {
     body {
-      padding-top: 120px; /* Ajusta para móviles donde el nav ocupa más espacio */
+      padding-top: 150px; /* Ajusta para móviles donde el nav ocupa más espacio */
     }
     .card-img-top {
       height: 200px;
