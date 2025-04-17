@@ -51,7 +51,7 @@ body {
   }
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     #inicio {
       max-width: 100%;
       font-size: 1rem;
