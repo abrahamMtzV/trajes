@@ -9,12 +9,12 @@
   <title>Blanca Rivera Boutique</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-white fixed-top" style="background-image: linear-gradient(to right, white, rgba(255,255,255,0)), url('img/lilafondo.jpg'); background-size: cover; background-position: bottom right; background-repeat: no-repeat;">
+  <nav class="navbar navbar-expand-lg bg-white fixed-top" style="background-image: linear-gradient(to right, white, rgba(255,255,255,0)), url('img/lilafondo.jpg'); background-size: cover; background-position: center right; background-repeat: no-repeat; box-shadow: 0 14px 12px rgba(0, 0, 0, 0.1);">
     <div class="container-fluid">
       <!-- Marca -->
       <a class="navbar-brand d-flex flex-column flex-lg-row align-items-start align-items-lg-center" href="#">
         <div class="d-flex align-items-center">
-          <img src="img/logo.jpg" alt="Logo" width="100" height="90" class="d-inline-block align-text-bottom me-4" style="margin-left: 30px;">
+          <img src="img/logo.jpg" alt="Logo" width="100" height="90" class="d-inline-block align-text-bottom me-4 rounded" style="margin-left: 30px;">
           <span class="fw-bold fs-2" style="color: blueviolet; font-family:Pinyon Script">
             Boutique Blanca Rivera
           </span>
@@ -29,14 +29,14 @@
       <!-- Menú colapsable -->
       <div class="collapse navbar-collapse justify-content-center mt-3 mt-lg-0" id="navbarContenido">
         <ul class="nav nav-underline">
-          <li class="nav-item mx-3">
-            <a class="nav-link text-dark nav-link-hover fw-bold" href="#sobreNosotros">NOSOTROS</a>
+          <li class="nav-item mx-4">
+            <a class="nav-link text-dark nav-link-hover fw-semibold" href="#sobreNosotros">NOSOTROS</a>
           </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link text-dark nav-link-hover fw-bold" href="#">CATÁLOGO</a>
+          <li class="nav-item mx-4">
+            <a class="nav-link text-dark nav-link-hover fw-semibold" href="#">CATÁLOGO</a>
           </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link text-dark nav-link-hover fw-bold" href="#contacto">CONTACTO</a>
+          <li class="nav-item mx-4">
+            <a class="nav-link text-dark nav-link-hover fw-semibold" href="#contacto">CONTACTO</a>
           </li>
         </ul>
       </div>
@@ -136,31 +136,46 @@
   </div>
 </section>
 
-<div class="container my-4 pb-3">
-  <div class="row justify-content-center gap-3">
-    
-    <div class="card col-md-3 col-sm-6 p-0 mx-2" style="max-width: 18rem; box-shadow: 0 10px 15px rgb(219, 85, 212); border-radius: 15px;">
-      <img src="img/card1.jpg" class="card-img-top img-fluid rounded-top" alt="..." style="height: 382px; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+<div class="container my-4 pb-2">
+  <div class="row justify-content-center gap-3 px-2 px-md-4 py-4"
+       style="background: linear-gradient(to right, white, rgba(243, 199, 243, 0.5), white); border-radius: 20px;">
+
+    <div class="card col-md-3 col-sm-6 p-0 mx-2 mb-4"
+         style="max-width: 18rem; border-radius: 15px; box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);">
+      <img src="img/card1.jpg" class="card-img-top img-fluid rounded-top"
+           alt="..." style="height: 382px; border-top-left-radius: 15px; border-top-right-radius: 15px;">
       <div class="card-body">
-        <p class="card-text" style="text-align: center; font-family: 'Josefin Sans';">En Boutique Blanca Rivera, creemos que cada persona merece lucir espectacular en sus momentos más importantes. Nos especializamos en la renta de trajes y vestidos para todo tipo de eventos sociales, como bodas, graduaciones, quince años, galas, fiestas formales y más.</p>
+        <p class="card-text text-center" style="font-family: 'Josefin Sans';">
+          En Boutique Blanca Rivera, creemos que cada persona merece lucir espectacular en sus momentos más importantes. Nos especializamos en la renta de trajes y vestidos para todo tipo de eventos sociales, como bodas, graduaciones, quince años, galas, fiestas formales y más.
+        </p>
       </div>
     </div>
 
-    <div class="card col-md-3 col-sm-6 p-0 mx-2" style="max-width: 18rem; box-shadow: 0 10px 15px rgb(219, 85, 212); border-radius: 15px;">
-      <img src="img/card2.jpg" class="card-img-top img-fluid rounded-top" alt="..." style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+    <div class="card col-md-3 col-sm-6 p-0 mx-2 mb-4"
+         style="max-width: 18rem; border-radius: 15px; box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);">
+      <img src="img/card2.jpg" class="card-img-top img-fluid rounded-top"
+           alt="..." style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
       <div class="card-body">
-        <p class="card-text" style="text-align: center; font-family: 'Josefin Sans';">Contamos con una amplia variedad de estilos, tallas y colores, cuidadosamente seleccionados para brindarte elegancia, confort y un toque único. Ya sea que busques un look moderno o clásico, en nuestra boutique encontrarás la prenda ideal para resaltar tu personalidad.</p>
+        <p class="card-text text-center" style="font-family: 'Josefin Sans';">
+          Contamos con una amplia variedad de estilos, tallas y colores, cuidadosamente seleccionados para brindarte elegancia, confort y un toque único. Ya sea que busques un look moderno o clásico, en nuestra boutique encontrarás la prenda ideal para resaltar tu personalidad.
+        </p>
       </div>
     </div>
- 
-    <div class="card col-md-3 col-sm-6 p-0 mx-2" style="max-width: 18rem; box-shadow: 0 10px 15px rgb(219, 85, 212); border-radius: 15px;">
-      <img src="img/card3.jpg" class="card-img-top img-fluid rounded-top" alt="..." style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+
+    <div class="card col-md-3 col-sm-6 p-0 mx-2 mb-4"
+         style="max-width: 18rem; border-radius: 15px; box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);">
+      <img src="img/card3.jpg" class="card-img-top img-fluid rounded-top"
+           alt="..." style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
       <div class="card-body">
-        <p class="card-text" style="text-align: center; font-family: 'Josefin Sans';">Nos distingue nuestra atención personalizada, enfocada en entender tus gustos, necesidades y presupuesto. Nuestro equipo está listo para ayudarte a elegir el atuendo perfecto, con asesoría desde la primera prueba hasta el día de tu evento.</p>
+        <p class="card-text text-center" style="font-family: 'Josefin Sans';">
+          Nos distingue nuestra atención personalizada, enfocada en entender tus gustos, necesidades y presupuesto. Nuestro equipo está listo para ayudarte a elegir el atuendo perfecto, con asesoría desde la primera prueba hasta el día de tu evento.
+        </p>
       </div>
     </div>
+
   </div>
 </div>
+
 <!--CARDS-->
 
 
