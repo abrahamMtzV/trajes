@@ -9,10 +9,12 @@
 body {
     margin: 0;
   }
-  
+
 #imagen1{
     opacity: 30%;
 }
+
+
 
 .nav-link-hover {
     transition: transform 0.2s ease-in-out;
@@ -141,3 +143,4 @@ body {
         font-size: 10pt;
       }
   }
+
